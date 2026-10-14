@@ -1,0 +1,12 @@
+{
+  "name": "seam-vehicles-ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite --host 0.0.0.0", "build": "vite build && node inline.mjs" },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.0",
+    "svelte": "^5.38.10",
+    "vite": "^6.0.0"
+  }
+}
